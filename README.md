@@ -5,6 +5,8 @@ The general idea is to take two images, and produce a new image that reflects th
 
 The deep network used as a feature extractor is [SqueezeNet](https://arxiv.org/abs/1602.07360), a small model that has been trained on ImageNet. Any network can be used, but SqueezeNet was chosen here for its small size and efficiency.
 
+The implementation is done in Pytorch and the notebook was run in a colab notebook.
+
 Image produced by this method:
 
 ![caption](example_styletransfer.png)
